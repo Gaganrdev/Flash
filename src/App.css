@@ -1,3 +1,4 @@
+/* Header Component CSS */
 .Header{
     display: flex;
     border: 1px solid rgb(57, 62, 70,0.3);
@@ -40,4 +41,58 @@
     list-style-type: none;
     justify-content: center;
     gap: 30px;
+}
+/* Home Component CSS */
+.landing-page{
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+}
+.landing-page h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.landing-page p{
+    font-size: 24px;
+    color: #a1a2a5;
+}
+/* Button Component CSS */
+.custom-button{
+    background-color: var(--cm-accent);
+    color: var(--cm-light);
+    font-size: x-large;
+    border:1px solid var(--cm-accent);
+    border-radius: 16px;
+    padding:10px;
+    cursor: pointer;
+}
+.custom-button:hover{
+    background-color: var(--cm-light);
+    color: var(--cm-accent);
+    box-shadow: 0 2px 20px var(--cm-accent);
+}
+/* Glance Component CSS */
+.glance{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+.glance > div{
+    background-color: rgba(67, 67, 67, 0.2);
+    color: var(--cm-light);
+    border-radius: 16px;
+    padding: 20px;
+    flex: 1;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.glance > div p{
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #a1a2a5;
+}
+.glance > div h2{
+    font-size: 32px;
+    font-weight: bold;
 }
